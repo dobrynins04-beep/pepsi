@@ -156,4 +156,136 @@ width:30px;
     background-repeat: no-repeat;
     background-position: center;
 
+
+}
+
+body{
+    font-family: "Klyakson";
+}
+.main {
+    width: 100%;
+    max-width: 1440px;
+    background: #0000005f;
+    margin: auto;
+}
+.logo{
+    display: inline-block;
+}
+a{
+    font-size:20px ;
+    color: black;
+      text-decoration: none;
+      margin-left:300px ;
+}
+.searh1{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 500px;
+}
+.searh2{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 100px;
+}
+ .blok1{
+    background-color: red;
+    width:100%;
+    height: 100px;
+ }
+ .blok2{
+    background-color: rgb(236, 185, 113); 
+    width:896px ;
+    height:698px ;
+ }
+ .blok3{
+     background-color:purple ; 
+         width:  483px;
+         height: 723px;
+         position: relative;
+         z-index: 3 !important;
+ }
+  .blok4{
+     background-color:green ; 
+         width:  483px;
+         height: 723px;
+         display: flex;
+         justify-content: center;
+         align-items: center;   
+ }
+ .sanya{
+     display: flex;
+     gap: 128px;
+     align-items: center;
+     justify-content: center;
+      
+ }
+ .blok5{  
+       background:pink; 
+         width:  500px;
+         height: 500px;
+ }
+.as1{
+ font-size:  70px;  
+ font-weight: 500px;
+
+}
+.as2{
+    color: gray;
+     margin-top:-50px;  
+}
+.dots{
+    position: absolute;
+    left: 90px;
+    top: 500px;
+    z-index: -1;
+}
+
+  .red-btn {
+      background-color: #e74c3c;   
+      color: #fff;                 
+      padding: 12px 28px;          
+      border: none;               
+      border-radius: 4px;         
+      font-size: 16px;             
+      font-family: Arial, sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      text-decoration: none;   
+      width: 85px;
+      margin-right: 350px;
+    }
+
+     .outlined-text {
+      font-size: 80px;            
+      font-weight: bold;           
+      color: white;                
+      -webkit-text-stroke: 2px black;   
+      font-family: Arial, sans-serif;
+      margin-top:-50px;
+    }
+    .as3{
+        width:300px;
+        height:305px;
+        background: #000;
+        position: absolute;
+        bottom: 190px;
+        left: 250px;
+        z-index: -1;
+    }
+    .as4{
+        width:205px ;
+        height:180px ;
+        background: #000;   
+        bottom:40px;
+        left: px;
+        right:350px;
+        position: absolute; 
+        z-index: -1;
+    }
+    .red-btn {
+  position: relative;
+  left: -290px;
 }
